@@ -6,7 +6,6 @@ import java.util.Set;
 
 public class Exercicio3avancado {
 
-    // Método que gera subconjuntos de um array de inteiros com opções de filtragem e ordenação
     public static List<List<Integer>> generateSubsets(int[] array, Integer maxSize, Integer minSize, boolean distinctOnly, boolean sortSubsets) {
 
         if (sortSubsets) {

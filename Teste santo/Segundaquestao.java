@@ -26,7 +26,6 @@ public class Segundaquestao {
                 pares.add(new int[]{array[i], array[i + 1]});
             }
         }
-
         return pares;
     }
 

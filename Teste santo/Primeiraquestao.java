@@ -14,7 +14,6 @@ public class Primeiraquestao {
             for (int j = 0; j < i; j++) {
                 asteriscos.append("*");
             }
-
             lista.add(asteriscos.toString()); // Converte para string e adiciona à lista
         }
 

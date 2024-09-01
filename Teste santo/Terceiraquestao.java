@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Terceiraquestao {
 
-    // Método que gera todos os subconjuntos possíveis de um array de inteiros
     public static List<List<Integer>> gerarSubconjuntos(int[] nums) {
         List<List<Integer>> subconjuntos = new ArrayList<>(); // Lista que vai armazenar todos os subconjuntos
         subconjuntos.add(new ArrayList<>()); // Adicionando o subconjunto vazio
